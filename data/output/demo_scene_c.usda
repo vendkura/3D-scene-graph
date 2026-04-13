@@ -1,0 +1,433 @@
+#usda 1.0
+(
+    defaultPrim = "Scene"
+)
+
+def Xform "Scene" (
+    customData = {
+        string relationships = "[{'from': 'ceiling_0', 'to': 'wall_0', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'table_3', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'table_5', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'table_7', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'table_8', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'floor_0', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'chair_1', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'chair_3', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'chair_7', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'chair_13', 'relationship': 'above'}, {'from': 'ceiling_0', 'to': 'chair_14', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'table_0', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'table_3', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'table_5', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'table_7', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'table_8', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'floor_0', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'chair_1', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'chair_7', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'chair_12', 'relationship': 'above'}, {'from': 'wall_0', 'to': 'chair_14', 'relationship': 'above'}, {'from': 'wall_1', 'to': 'wall_2', 'relationship': 'below'}, {'from': 'wall_1', 'to': 'wall_4', 'relationship': 'below'}, {'from': 'wall_1', 'to': 'table_3', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'table_7', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'floor_0', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'furniture_4', 'relationship': 'below'}, {'from': 'wall_1', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'wall_1', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'table_3', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'table_6', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'table_7', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'furniture_4', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'wall_2', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'wall_3', 'to': 'table_1', 'relationship': 'adjacent'}, {'from': 'wall_3', 'to': 'table_6', 'relationship': 'adjacent'}, {'from': 'wall_3', 'to': 'furniture_2', 'relationship': 'adjacent'}, {'from': 'wall_3', 'to': 'chair_6', 'relationship': 'adjacent'}, {'from': 'wall_3', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'table_4', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'table_7', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_0', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_2', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_9', 'relationship': 'adjacent'}, {'from': 'wall_4', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'table_1', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'table_3', 'relationship': 'near'}, {'from': 'table_0', 'to': 'table_5', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'table_6', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'table_9', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'chair_4', 'relationship': 'near'}, {'from': 'table_0', 'to': 'chair_6', 'relationship': 'near'}, {'from': 'table_0', 'to': 'chair_11', 'relationship': 'near'}, {'from': 'table_0', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'table_0', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'table_1', 'to': 'table_3', 'relationship': 'near'}, {'from': 'table_1', 'to': 'table_6', 'relationship': 'near'}, {'from': 'table_1', 'to': 'table_9', 'relationship': 'near'}, {'from': 'table_1', 'to': 'furniture_2', 'relationship': 'adjacent'}, {'from': 'table_1', 'to': 'chair_4', 'relationship': 'near'}, {'from': 'table_1', 'to': 'chair_6', 'relationship': 'adjacent'}, {'from': 'table_1', 'to': 'chair_11', 'relationship': 'near'}, {'from': 'table_1', 'to': 'chair_12', 'relationship': 'near'}, {'from': 'table_2', 'to': 'table_4', 'relationship': 'near'}, {'from': 'table_2', 'to': 'table_8', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'furniture_1', 'relationship': 'below'}, {'from': 'table_2', 'to': 'furniture_3', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_0', 'relationship': 'near'}, {'from': 'table_2', 'to': 'chair_2', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_5', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_8', 'relationship': 'near'}, {'from': 'table_2', 'to': 'chair_9', 'relationship': 'near'}, {'from': 'table_2', 'to': 'chair_10', 'relationship': 'adjacent'}, {'from': 'table_2', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'table_5', 'relationship': 'near'}, {'from': 'table_3', 'to': 'table_6', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'table_7', 'relationship': 'near'}, {'from': 'table_3', 'to': 'table_8', 'relationship': 'near'}, {'from': 'table_3', 'to': 'floor_0', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'furniture_4', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'table_3', 'to': 'chair_12', 'relationship': 'near'}, {'from': 'table_3', 'to': 'chair_13', 'relationship': 'near'}, {'from': 'table_3', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'table_7', 'relationship': 'near'}, {'from': 'table_4', 'to': 'table_8', 'relationship': 'near'}, {'from': 'table_4', 'to': 'furniture_0', 'relationship': 'near'}, {'from': 'table_4', 'to': 'chair_0', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'chair_2', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'chair_5', 'relationship': 'near'}, {'from': 'table_4', 'to': 'chair_7', 'relationship': 'near'}, {'from': 'table_4', 'to': 'chair_9', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'table_4', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'table_5', 'to': 'table_7', 'relationship': 'near'}, {'from': 'table_5', 'to': 'table_8', 'relationship': 'near'}, {'from': 'table_5', 'to': 'floor_0', 'relationship': 'adjacent'}, {'from': 'table_5', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'table_5', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'table_5', 'to': 'chair_11', 'relationship': 'near'}, {'from': 'table_5', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'table_5', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'table_6', 'to': 'furniture_2', 'relationship': 'near'}, {'from': 'table_6', 'to': 'furniture_4', 'relationship': 'adjacent'}, {'from': 'table_6', 'to': 'chair_1', 'relationship': 'near'}, {'from': 'table_6', 'to': 'chair_6', 'relationship': 'adjacent'}, {'from': 'table_6', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'table_6', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'table_8', 'relationship': 'near'}, {'from': 'table_7', 'to': 'floor_0', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'furniture_4', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_0', 'relationship': 'near'}, {'from': 'table_7', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_2', 'relationship': 'near'}, {'from': 'table_7', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'table_7', 'to': 'chair_14', 'relationship': 'near'}, {'from': 'table_8', 'to': 'floor_0', 'relationship': 'adjacent'}, {'from': 'table_8', 'to': 'chair_1', 'relationship': 'near'}, {'from': 'table_8', 'to': 'chair_2', 'relationship': 'near'}, {'from': 'table_8', 'to': 'chair_3', 'relationship': 'near'}, {'from': 'table_8', 'to': 'chair_5', 'relationship': 'adjacent'}, {'from': 'table_8', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'table_8', 'to': 'chair_10', 'relationship': 'near'}, {'from': 'table_8', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'table_8', 'to': 'chair_14', 'relationship': 'near'}, {'from': 'table_8', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'table_9', 'to': 'chair_4', 'relationship': 'adjacent'}, {'from': 'table_9', 'to': 'chair_6', 'relationship': 'near'}, {'from': 'table_9', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_2', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'floor_0', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'furniture_0', 'to': 'furniture_1', 'relationship': 'adjacent'}, {'from': 'furniture_0', 'to': 'chair_0', 'relationship': 'near'}, {'from': 'furniture_0', 'to': 'chair_2', 'relationship': 'near'}, {'from': 'furniture_0', 'to': 'chair_9', 'relationship': 'near'}, {'from': 'furniture_0', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'furniture_1', 'to': 'furniture_3', 'relationship': 'above'}, {'from': 'furniture_1', 'to': 'chair_5', 'relationship': 'above'}, {'from': 'furniture_1', 'to': 'chair_8', 'relationship': 'above'}, {'from': 'furniture_1', 'to': 'chair_9', 'relationship': 'above'}, {'from': 'furniture_1', 'to': 'chair_10', 'relationship': 'above'}, {'from': 'furniture_1', 'to': 'chair_15', 'relationship': 'above'}, {'from': 'furniture_2', 'to': 'chair_6', 'relationship': 'adjacent'}, {'from': 'furniture_2', 'to': 'chair_11', 'relationship': 'near'}, {'from': 'furniture_3', 'to': 'chair_5', 'relationship': 'near'}, {'from': 'furniture_3', 'to': 'chair_8', 'relationship': 'near'}, {'from': 'furniture_3', 'to': 'chair_10', 'relationship': 'adjacent'}, {'from': 'furniture_3', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'furniture_4', 'to': 'chair_1', 'relationship': 'adjacent'}, {'from': 'furniture_4', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'furniture_4', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'chair_0', 'to': 'chair_2', 'relationship': 'near'}, {'from': 'chair_0', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'chair_0', 'to': 'chair_5', 'relationship': 'near'}, {'from': 'chair_0', 'to': 'chair_9', 'relationship': 'adjacent'}, {'from': 'chair_0', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'chair_0', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'chair_1', 'to': 'chair_2', 'relationship': 'near'}, {'from': 'chair_1', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'chair_1', 'to': 'chair_7', 'relationship': 'near'}, {'from': 'chair_1', 'to': 'chair_11', 'relationship': 'near'}, {'from': 'chair_1', 'to': 'chair_12', 'relationship': 'near'}, {'from': 'chair_1', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'chair_1', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'chair_2', 'to': 'chair_3', 'relationship': 'adjacent'}, {'from': 'chair_2', 'to': 'chair_5', 'relationship': 'adjacent'}, {'from': 'chair_2', 'to': 'chair_7', 'relationship': 'near'}, {'from': 'chair_2', 'to': 'chair_8', 'relationship': 'near'}, {'from': 'chair_2', 'to': 'chair_9', 'relationship': 'adjacent'}, {'from': 'chair_2', 'to': 'chair_10', 'relationship': 'near'}, {'from': 'chair_2', 'to': 'chair_13', 'relationship': 'near'}, {'from': 'chair_2', 'to': 'chair_14', 'relationship': 'near'}, {'from': 'chair_2', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'chair_3', 'to': 'chair_5', 'relationship': 'adjacent'}, {'from': 'chair_3', 'to': 'chair_7', 'relationship': 'near'}, {'from': 'chair_3', 'to': 'chair_9', 'relationship': 'adjacent'}, {'from': 'chair_3', 'to': 'chair_13', 'relationship': 'adjacent'}, {'from': 'chair_3', 'to': 'chair_14', 'relationship': 'near'}, {'from': 'chair_3', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'chair_4', 'to': 'chair_6', 'relationship': 'adjacent'}, {'from': 'chair_4', 'to': 'chair_12', 'relationship': 'adjacent'}, {'from': 'chair_5', 'to': 'chair_7', 'relationship': 'adjacent'}, {'from': 'chair_5', 'to': 'chair_8', 'relationship': 'near'}, {'from': 'chair_5', 'to': 'chair_9', 'relationship': 'near'}, {'from': 'chair_5', 'to': 'chair_10', 'relationship': 'adjacent'}, {'from': 'chair_5', 'to': 'chair_13', 'relationship': 'near'}, {'from': 'chair_5', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'chair_5', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'chair_6', 'to': 'chair_11', 'relationship': 'adjacent'}, {'from': 'chair_7', 'to': 'chair_8', 'relationship': 'near'}, {'from': 'chair_7', 'to': 'chair_10', 'relationship': 'near'}, {'from': 'chair_7', 'to': 'chair_13', 'relationship': 'near'}, {'from': 'chair_7', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'chair_7', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'chair_8', 'to': 'chair_9', 'relationship': 'near'}, {'from': 'chair_8', 'to': 'chair_10', 'relationship': 'adjacent'}, {'from': 'chair_8', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'chair_9', 'to': 'chair_13', 'relationship': 'near'}, {'from': 'chair_9', 'to': 'chair_15', 'relationship': 'adjacent'}, {'from': 'chair_10', 'to': 'chair_15', 'relationship': 'near'}, {'from': 'chair_11', 'to': 'chair_12', 'relationship': 'near'}, {'from': 'chair_12', 'to': 'chair_14', 'relationship': 'adjacent'}, {'from': 'chair_13', 'to': 'chair_14', 'relationship': 'near'}, {'from': 'chair_13', 'to': 'chair_15', 'relationship': 'near'}]"
+    }
+)
+{
+    def Scope "Geometry"
+    {
+        def Xform "ceiling_0" (
+            customData = {
+                int point_count = 25259
+                string semantic_label = "ceiling"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.6055511576808263, -1.1475624388748566, -3.5123461814295895)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "wall_0" (
+            customData = {
+                int point_count = 46143
+                string semantic_label = "wall"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.4955469876783043, -1.8846575471365103, -4.664603141206901)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "wall_1" (
+            customData = {
+                int point_count = 512
+                string semantic_label = "wall"
+            }
+        )
+        {
+            double3 xformOp:translate = (5.134045132382813, -0.4714358597070312, -5.814610079921875)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "wall_2" (
+            customData = {
+                int point_count = 128
+                string semantic_label = "wall"
+            }
+        )
+        {
+            double3 xformOp:translate = (5.539118278828125, -1.9908534000000002, -5.179200507109375)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "wall_3" (
+            customData = {
+                int point_count = 36
+                string semantic_label = "wall"
+            }
+        )
+        {
+            double3 xformOp:translate = (6.3224576061111115, -4.917975135000001, -5.767662114444445)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "wall_4" (
+            customData = {
+                int point_count = 61
+                string semantic_label = "wall"
+            }
+        )
+        {
+            double3 xformOp:translate = (4.750922476557378, 0.9982691049180328, -5.233196414262296)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_0" (
+            customData = {
+                int point_count = 967
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.1564138911271975, -4.4130655293485015, -5.352505072006204)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_1" (
+            customData = {
+                int point_count = 2519
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (4.277081952941644, -4.847830102246924, -5.459274148388249)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_2" (
+            customData = {
+                int point_count = 2164
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (0.6140393675369685, 1.9370951087939006, -5.411480414463956)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_3" (
+            customData = {
+                int point_count = 994
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.7758633316800805, -2.153801604537223, -5.39289922637827)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_4" (
+            customData = {
+                int point_count = 2410
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.0636546095601656, 1.7469937828340252, -5.414151810170124)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_5" (
+            customData = {
+                int point_count = 965
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.5269993215751296, -2.0800436181761657, -5.378693704134714)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_6" (
+            customData = {
+                int point_count = 1090
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (4.317802664981651, -3.704895843706422, -5.365288016669725)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_7" (
+            customData = {
+                int point_count = 1041
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.677767765715658, -0.40310704492795385, -5.410017728828049)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_8" (
+            customData = {
+                int point_count = 1115
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.422587095515695, -0.422877220206278, -5.378614648735426)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "table_9" (
+            customData = {
+                int point_count = 681
+                string semantic_label = "table"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.5575144185756242, -6.39104406359765, -5.311322212232011)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "floor_0" (
+            customData = {
+                int point_count = 52742
+                string semantic_label = "floor"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.593109566094953, -1.2010555797313336, -5.82438529122521)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "furniture_0" (
+            customData = {
+                int point_count = 2511
+                string semantic_label = "furniture"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.1394154825288734, 3.983298264663481, -5.1013133345081645)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "furniture_1" (
+            customData = {
+                int point_count = 407
+                string semantic_label = "furniture"
+            }
+        )
+        {
+            double3 xformOp:translate = (0.6831408744471744, 3.5619158811547913, -4.68276230036855)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "furniture_2" (
+            customData = {
+                int point_count = 2571
+                string semantic_label = "furniture"
+            }
+        )
+        {
+            double3 xformOp:translate = (5.987894826114353, -5.474685800665111, -5.317780840630105)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "furniture_3" (
+            customData = {
+                int point_count = 246
+                string semantic_label = "furniture"
+            }
+        )
+        {
+            double3 xformOp:translate = (0.06938704959349594, 3.372542646626016, -5.5309763400813)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "furniture_4" (
+            customData = {
+                int point_count = 193
+                string semantic_label = "furniture"
+            }
+        )
+        {
+            double3 xformOp:translate = (5.449187167564767, -2.0037244993264247, -5.224245291347151)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_0" (
+            customData = {
+                int point_count = 356
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.5755338923876407, 2.3676721325842696, -5.533732253651685)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_1" (
+            customData = {
+                int point_count = 326
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.486772256380368, -1.6909630496012271, -5.5095719606134965)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_2" (
+            customData = {
+                int point_count = 301
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.5417122303654485, 1.1341278504651162, -5.528550089435216)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_3" (
+            customData = {
+                int point_count = 366
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.086382324043716, 0.9504176269945355, -5.523244225765027)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_4" (
+            customData = {
+                int point_count = 327
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (2.2245293966666666, -6.058337606911315, -5.474681267889908)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_5" (
+            customData = {
+                int point_count = 327
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.1814633074006118, 1.4288111380122326, -5.519648002477064)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_6" (
+            customData = {
+                int point_count = 296
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (4.61130990206081, -5.362508353445946, -5.500081102331081)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_7" (
+            customData = {
+                int point_count = 312
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.2262614461858974, 0.09570895631410256, -5.5062555410256415)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_8" (
+            customData = {
+                int point_count = 314
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (0.06197902780254778, 2.513415209012739, -5.518895551433122)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_9" (
+            customData = {
+                int point_count = 349
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.0210496256160457, 2.5654992611174783, -5.535654353323782)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_10" (
+            customData = {
+                int point_count = 350
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (-0.17077281485714285, 2.0067960711714283, -5.521801629285714)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_11" (
+            customData = {
+                int point_count = 314
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (4.246069856751593, -3.1791340669108283, -5.489068756974522)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_12" (
+            customData = {
+                int point_count = 317
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.9667353500315456, -3.9122753547634077, -5.472188648359621)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_13" (
+            customData = {
+                int point_count = 331
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (3.7072049139577037, 0.12349952957703927, -5.523934723172205)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_14" (
+            customData = {
+                int point_count = 327
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.46818573088685, -1.5566938951070337, -5.487306004342507)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "chair_15" (
+            customData = {
+                int point_count = 331
+                string semantic_label = "chair"
+            }
+        )
+        {
+            double3 xformOp:translate = (1.4093997427190335, 1.9184325712688823, -5.528273521540785)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}
+
