@@ -54,3 +54,8 @@ usd-core  # optional — required for .usda export
 
 - `scene.usda` — OpenUSD stage with object prims and relationship metadata
 - `scene_summary.json` — node/edge counts, semantic distribution, relationship types
+
+## Credit
+
+- Method and pipeline (point cloud to scene graph, relationships, OpenUSD export): Florent Poux (3D Geodata Academy). The code in `index.py` follows his teaching material.
+- Repo structure, adaptations and this README: Giovanni Bazie.
